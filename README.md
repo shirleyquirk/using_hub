@@ -1,5 +1,15 @@
 Creating a New Repo using hub
 
+  Set up:
+
+Add SSH public key to github
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+copy ~/.ssh/id_rsa.pub to github website
+
+
+
+
 $mkdir /path/to/project
 $cd /path/to/project
 
