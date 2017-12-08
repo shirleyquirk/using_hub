@@ -11,20 +11,29 @@ copy ~/.ssh/id_rsa.pub to github website
 
 
 $mkdir /path/to/project
+
 $cd /path/to/project
 
   initialize git
+
 $ git init
 
   add files
+
 $ cat < hello-world.py
+
 #!/usr/bin/python
+
 print('hello, world')
+
 Ctrl-D
 
   add to staging
+
 $ git add .
+
   commit
+
 $ git commit -m "It begins."
 
   create new project on github with name of current directory
